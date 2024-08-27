@@ -1,11 +1,14 @@
 export function Navigation() {
     return (
-        <nav>
-            <ul>
-                <li><a className="btn btn-nav" href="#">All</a></li>
-                <li><a className="btn btn-nav" href="#">About</a></li>
-                <li><a className="btn btn-nav" href="#">Work</a></li>
-            </ul>
-        </nav>
+        <div className="topnav">
+            <h1 className="name">Josef Krepelka</h1>
+            <div className="navbtn">
+                <a className="btn" href="#">Home</a>
+                <a className="btn" href="#">Work</a>
+                <a className="btn" href="#">About</a>
+                <a className="btn" href="#">Contacts</a>
+            </div>
+            <h1 className="username">rokija.dev</h1>
+        </div>
     )
 }

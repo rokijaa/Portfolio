@@ -1,0 +1,20 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: #5b5b5b;
+    margin: 0;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+.navbtn {
+    display: flex;
+}
+.btn {
+    padding: 0px 20px;
+}
