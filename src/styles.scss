@@ -14,7 +14,22 @@
 
 .navbtn {
     display: flex;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 .btn {
     padding: 0px 20px;
+    text-decoration: none;
+    color: #999999;
+    background-color: none;
+}   
+.name {
+    width: 350px;
+    cursor: pointer;
+}
+.username {
+    width: 350px;
+    text-align: end;
+    cursor: pointer;
 }
